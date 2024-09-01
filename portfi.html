@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfi.css">
+    <title>responsive portfolio website</title>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <a href="#" class="logo">portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">Contact</a>
+
+
+        </nav>
+
+    </header>
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,Myself</h3>
+            <h1>Madhulika</h1>
+            <h3>And i'm a <span>B.E student</span></h3>
+            <p> i'm studying Information Technology in the 5th semester at Chaitanya Bharatiya Institute of Technology.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/nanavathula-madhulika-027893286" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/MadhulikaNanavathula" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+            </div>
+            <a href="Resume.pdf" class="btn" id="download-btn">Download Resume</a>
+
+
+
+        </div>
+        <div class="home-img">
+            <img src="portfiledp.png" alt="">
+
+        </div>
+
+    </section>
+    <!--About section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="portfiledp.png">
+
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>B.E student</h3>
+            <p> i'm studying Information Technology in the 5th semester at Chaitanya Bharatiya Institute of Technology.</p>
+            <a href="#" class="btn">Read more</a>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Boostrap</li>
+            <li>Python</li>
+            <li>Microsoft Power Bi </li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Diet Plan Prediction.</p>
+            <a href="#">diet-plan-prediction</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>EAD Projects.</p>
+            <a href="#">EAD_LAB_160122737081</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+    
+
+    <script src="portfi.js"></script>
+</body>
+</html>
